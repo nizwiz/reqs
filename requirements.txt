@@ -68,3 +68,4 @@ XlsxWriter==3.2.0
 fastapi==0.112.2
 circus==0.18.0
 uvicorn==0.30.6
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
